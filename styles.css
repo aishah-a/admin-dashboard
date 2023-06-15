@@ -1,17 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     display: grid;
     grid-template-columns: minmax(250px, 20%) minmax(400px, 80%);
+    padding: 0;
+    margin: 0;
 }
 
 .header {
     background-color: aquamarine;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 70px 100px;
 }
 
 .dashboard {
     background-color:cadetblue;
-    grid-row: 1 / 4;
-    color: white
+    grid-row: 1 / 5;
+    color: white;
+}
+
+.dashboard h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.dashboard img {
+    height: auto;
+    padding: 5px;
+    margin: 2px;
+}
+
+.dash-title {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.menu1 ul,
+.menu2 ul {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 8px;
+    margin: 3px;
+}
+
+.menu1,
+.menu2 {
+    padding: 15px;
 }
 
 .main {
@@ -24,27 +66,10 @@
     background-color: mistyrose;
 }
 
-div {
-    padding: 5px;
-}
+
 
 li {
     list-style: none;
+    padding: 8px;
 }
 
-
-.dashboard h1 {
-    font-size: 1.6rem;
-}
-
-.dashboard img {
-    height: auto;
-    padding: 3px;
-    margin: 2px;
-}
-
-.dash-title {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    align-items: center;
-}
