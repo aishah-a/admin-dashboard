@@ -112,7 +112,7 @@ body {
 .lower {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10px;
+    padding: 2px;
     background-color: white;
 }
 
@@ -122,10 +122,18 @@ body {
     align-items: center;
 }
 
+
 .photo {
-    min-height: 60px;
-    max-height: 95%;
-    padding: 2px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.photo img {
+    min-height: 100px;
+    padding: 5px;
 }
 
 .greeting {
@@ -141,10 +149,13 @@ body {
 }
 
 p.greet {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
+.greet {
+    min-width: 230px;
+}
 
 .buttons {
     display: grid;
@@ -160,7 +171,7 @@ button {
     border: solid 0.5px black;
     border-radius: 20px;
     color: white;
-    background-color: blue;
+    background-color: palevioletred;
     padding: 5px;
     margin: 3px;
 }
