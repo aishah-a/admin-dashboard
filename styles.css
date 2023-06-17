@@ -208,7 +208,7 @@ button {
 .page {
     display: grid;
     grid-template-columns: 2fr 0.8fr;
-    background-color: lightgray;
+    background-color: #D8E2E5;
 }
 
 .card_container {
@@ -264,12 +264,51 @@ div.action {
 }
 
 .sidebar {
-    background-color: orange;
     padding: 5px;
+    display: grid;
+    grid-template-rows: 2fr 1.5fr;
+    gap: 10px;
 }
 
-.announcements {
-    background-color: green;
+.sidebar > * {
+    padding: 10px;
+}
+
+.announcements p {
+    padding: 5px;
+    margin: 8px;
+}
+
+.ann p {
+    margin: 3px;
+}
+.ann p:first-child {
+    font-weight: 700;
+}
+
+.ann {
+    padding: 5px;
+    display: grid;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.announcement {
+    background-color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    height: min-content;
+    overflow: auto;
+}
+
+.announcement:nth-child(-n+2) {
+    border-bottom: 1px solid lightgray;
+}
+
+.announcement p:not(:first-child) {
+    padding: 3px;
+    margin: 2px;
 }
 
 .trending {
