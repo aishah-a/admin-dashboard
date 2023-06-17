@@ -5,6 +5,8 @@ body {
     background-color: white;
 }
 
+/*change margin of all p elems to 0 by default */
+
 .container {
     display: grid;
     padding: 0;
@@ -122,6 +124,10 @@ div.user {
     min-width: 45px;
 }
 
+p.username {
+    font-weight: 700;
+}
+
 .bottom {
     background-color: white;
     display: grid;
@@ -162,6 +168,10 @@ div.greeting {
     font-size: 2rem;
 }
 
+.usergreeting p {
+    font-weight: 700;
+}
+
 div.greet {
     display: grid;
     align-items: end;
@@ -170,7 +180,6 @@ div.greet {
 div.greet_user {
     display: grid;
     grid-template-columns: 0.3fr 1fr;
-    gap: 10px;
 }
 
 div.showuser {
@@ -266,7 +275,6 @@ div.action {
 .sidebar {
     padding: 5px;
     display: grid;
-    grid-template-rows: 2fr 1.5fr;
     gap: 10px;
 }
 
@@ -286,7 +294,8 @@ div.action {
     font-weight: 700;
 }
 
-.ann {
+.ann,
+.users {
     padding: 5px;
     display: grid;
     border: 1px solid white;
@@ -294,7 +303,8 @@ div.action {
     background-color: white;
 }
 
-.announcement {
+.announcement,
+.trend {
     background-color: white;
     padding: 10px;
     font-size: 0.8rem;
@@ -309,8 +319,34 @@ div.action {
 .announcement p:not(:first-child) {
     padding: 3px;
     margin: 2px;
+    font-weight: 400;
 }
 
-.trending {
-    background-color: pink;
+div.trending {
+    padding: 10px;
+}
+
+.trend {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.trend p {
+    margin: 0;
+}
+
+.trend img {
+    height: 40px;
+}
+
+.user_detail {
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.user_descr {
+    color: grey;
+    font-weight: 400;
 }
