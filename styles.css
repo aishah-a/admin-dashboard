@@ -106,10 +106,6 @@ div.search_bar {
     grid-template-columns: repeat(5, 1fr);
 }
 
-.grid_item.notif {
-    grid-column-start: 2;
-}
-
 .grid_item.username {
     grid-column: 4 / 6;
 }
@@ -117,6 +113,14 @@ div.search_bar {
 div.notif {
     padding: 10px;
     min-width: 27px;
+    display: grid;
+    grid-column-start: 2;
+   justify-content: center;
+
+}
+
+.notif img {
+    width: 40px;
 }
 
 div.user {
