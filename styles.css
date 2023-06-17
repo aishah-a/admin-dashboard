@@ -201,6 +201,8 @@ button {
     border-radius: 30px;
     color: white;
     background-color: navy;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .page {
@@ -263,4 +265,13 @@ div.action {
 
 .sidebar {
     background-color: orange;
+    padding: 5px;
+}
+
+.announcements {
+    background-color: green;
+}
+
+.trending {
+    background-color: pink;
 }
