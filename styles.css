@@ -61,16 +61,9 @@ li {
     padding: 8px;
 }
 
-.main {
-    display: grid;
-    grid-template-rows: 1.5fr 2fr;
-    background-color: pink;
-
-}
-
 .header {
     display: grid;
-    grid-template-rows: 1.5fr 3fr;
+    grid-template-rows: 0.5fr 1fr;
 }
 
 .top {
@@ -130,7 +123,71 @@ div.user {
     min-width: 45px;
 }
 
-
 .bottom {
-    background-color: peachpuff;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.bottom_left {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+}
+
+div.userphoto {
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.userphoto img {
+    height: 90%;
+}
+
+div.greeting {
+    padding: 10px;
+    display: grid;
+}
+
+.greeting p {
+    margin: 0;
+}
+
+.greet p {
+    font-size: 1.1rem;
+}
+
+.greet_user p {
+    font-size: 2rem;
+}
+
+div.greet {
+    display: grid;
+    align-items: end;
+}
+
+div.greet_user {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 10px;
+}
+
+div.showuser {
+    display: grid;
+    align-items: center;
+}
+
+.showuser p {
+    font-size: 1.2rem;
+}
+
+.bottom_right {
+    background-color:darkkhaki
+}
+
+
+.sidebar {
+    background-color: pink;
 }
