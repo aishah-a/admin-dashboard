@@ -215,7 +215,7 @@ button {
 
 .card_container p {
     padding: 5px;
-    margin: 0;
+    margin: 0 0 0 10px;
 }
 
 .cards {
@@ -229,10 +229,36 @@ button {
 .card {
     background-color: white;
     height: 250px;
-    padding: 20px;
-    border: 1px solid white;
+    padding: 15px;
+    border-left: 10px solid orange;
     border-radius: 8px;
     box-sizing: border-box;
+    overflow: auto;
+    display: grid;
+    grid-template-rows: 1fr 3fr 0.5fr;
+}
+
+.card h3 {
+    padding: 5px;
+    margin: 2px;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.action img {
+    height: 25px;
+}
+
+div.action {
+    display: grid;
+    justify-content: center;
+}
+
+.fave {
+    grid-column-start: 4;
 }
 
 .sidebar {
