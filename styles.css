@@ -18,7 +18,7 @@ body {
     color: white;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.5fr 1fr;
+    grid-template-rows: 0.1fr 0.3fr 1fr;
 }
 
 .dashboard h1 {
@@ -218,6 +218,7 @@ button {
     display: grid;
     grid-template-columns: 2fr 0.8fr;
     background-color: #D8E2E5;
+    padding: 5px;
 }
 
 .card_container {
@@ -282,7 +283,8 @@ div.action {
     padding: 10px;
 }
 
-.announcements p {
+.announcements p,
+.trending p {
     padding: 5px;
     margin: 8px;
 }
@@ -323,7 +325,7 @@ div.action {
 }
 
 div.trending {
-    padding: 10px;
+    padding: 2px 10px 10px 10px;
 }
 
 .trend {
