@@ -14,7 +14,7 @@ body {
 }
 
 .dashboard {
-    background-color: cadetblue;
+    background-color: #4D7298;
     color: white;
     display: grid;
     grid-template-columns: 1fr;
@@ -210,10 +210,10 @@ div.button {
 button {
     width: 100px;
     height: 40%;
-    border: 1px solid black;
+    border: 1px solid #17183B;
     border-radius: 30px;
     color: white;
-    background-color: navy;
+    background-color: #17183B;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -221,7 +221,7 @@ button {
 .page {
     display: grid;
     grid-template-columns: 2fr 0.9fr;
-    background-color: #D8E2E5;
+    background-color: #D1DEDE;
     padding: 5px;
 }
 
@@ -250,7 +250,7 @@ button {
     background-color: white;
     height: 250px;
     padding: 15px;
-    border-left: 10px solid orange;
+    border-left: 10px solid #FF6978;
     border-radius: 8px;
     box-sizing: border-box;
     overflow: auto;
