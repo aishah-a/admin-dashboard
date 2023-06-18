@@ -20,7 +20,7 @@ p {
     color: white;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.3fr 1fr;
+    grid-template-rows: auto auto 1fr;
 }
 
 .dashboard h1 {
@@ -31,7 +31,7 @@ p {
 .dashboard img,
 .dash-title img {
     height: auto;
-    min-width: 20px;
+    min-width: 25px;
     padding: 5px;
     margin: 2px;
 }
@@ -42,6 +42,7 @@ p {
     align-items: center;
     padding: 10px 5px;
 }
+
 
 
 .menu1,
@@ -62,6 +63,7 @@ p {
 li {
     list-style: none;
     padding: 8px;
+    font-size: 20px;
 }
 
 .header {
@@ -122,7 +124,7 @@ div.notif {
 }
 
 .notif img {
-    width: 40px;
+    width: 30px;
 }
 
 div.user {
