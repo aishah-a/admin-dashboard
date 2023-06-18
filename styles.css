@@ -145,6 +145,7 @@ p.username {
 .bottom_left {
     display: grid;
     grid-template-columns: 0.5fr 3fr;
+    padding-left: 20px;
 }
 
 div.userphoto {
