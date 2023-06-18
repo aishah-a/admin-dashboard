@@ -220,9 +220,13 @@ button {
 
 .page {
     display: grid;
-    grid-template-columns: 2fr 0.8fr;
+    grid-template-columns: 2fr 0.9fr;
     background-color: #D8E2E5;
     padding: 5px;
+}
+
+.title {
+    font-weight: 600;
 }
 
 .card_container {
@@ -237,7 +241,7 @@ button {
 .cards {
     padding: 5px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 330px);
+    grid-template-columns: repeat(auto-fit, 320px);
     gap: 20px;
     justify-content: center;
 }
@@ -281,10 +285,15 @@ div.action {
     padding: 5px;
     display: grid;
     gap: 10px;
+    grid-template-rows: 0.3fr 0.5fr;
 }
 
 .sidebar > * {
     padding: 10px;
+}
+
+div.announcements {
+    height: max-content;
 }
 
 .announcements p,
