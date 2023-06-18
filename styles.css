@@ -5,7 +5,9 @@ body {
     background-color: white;
 }
 
-/*change margin of all p elems to 0 by default */
+p {
+    margin: 0;
+}
 
 .container {
     display: grid;
@@ -160,9 +162,6 @@ div.greeting {
     display: grid;
 }
 
-.greeting p {
-    margin: 0;
-}
 
 .greet p {
     font-size: 1.1rem;
@@ -235,7 +234,7 @@ button {
 
 .card_container p {
     padding: 5px;
-    margin: 0 0 0 10px;
+    margin-right: 10px;
 }
 
 .cards {
@@ -346,10 +345,6 @@ div.trending {
     grid-template-columns: 0.5fr 2fr;
     justify-content: center;
     align-items: center;
-}
-
-.trend p {
-    margin: 0;
 }
 
 .trend img {
